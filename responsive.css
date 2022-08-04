@@ -1,0 +1,82 @@
+@media screen and (min-width: 393px) {
+  .waves {
+    display: none;
+  }
+
+  .waves-desktop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    max-width: 120px;
+  }
+
+  .section_1-master p {
+    margin-bottom: 32px;
+  }
+
+  .image-banner {
+    max-width: 530px;
+  }
+
+  .data-result {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  h1 {
+    font-size: 3.5vw;
+  }
+
+  .masters {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: start;
+    justify-content: space-evenly;
+  }
+
+  .banners {
+    margin: 0;
+  }
+
+  p {
+    max-width: 473px;
+  }
+
+  .section_4-master {
+    flex-direction: row;
+  }
+
+  footer {
+    height: 50vh;
+  }
+
+  .footer-1 p,
+  .footer-2 p {
+    max-width: 340px;
+  }
+
+  .footer-master {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    flex-direction: row;
+  }
+
+  .subscribe button {
+    padding: 12px 35px;
+    margin: 0 0 0 15px;
+  }
+
+  input[type="email"] {
+    width: 340px;
+  }
+}

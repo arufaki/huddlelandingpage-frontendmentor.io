@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: clip;
+}
+
+.container {
+  width: calc(100% - 100px);
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 350px;
+}
+
+main {
+  margin-bottom: 264px;
+}
+
+header {
+  margin-top: 25px;
+}
+
+.header-master {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  max-width: 100px;
+}
+
+.header-logo img {
+  width: 100%;
+}
+
+.header-master a {
+  text-decoration: none;
+  color: hsl(322, 100%, 66%);
+  font-size: 11px;
+  border: 1px solid hsl(322, 100%, 66%);
+  padding: 3px 16px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.item {
+  text-align: center;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-top: 20px;
+  max-width: 555px;
+}
+
+h1 {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.section-1 {
+  margin-top: 115px;
+}
+
+.section_1-master p {
+  margin-bottom: 62px;
+}
+
+.get-started {
+  color: white;
+  border: 1px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  padding: 10px 30px;
+  border-radius: 21px;
+}
+
+.get-started {
+  color: white;
+  border: 1px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  padding: 10px 35px;
+  border-radius: 21px;
+  box-shadow: 0px 0px 4px 0px rgb(148 148 148 / 70%);
+  -webkit-box-shadow: 0px 0px 10px 0px rgb(148 148 148 / 70%);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(148, 148, 148, 0.7);
+}
+
+.image-banner img {
+  max-width: 100%;
+}
+
+.image-banner {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  color: hsl(192, 100%, 9%);
+  line-height: 1;
+}
+
+.icon-images img {
+  max-width: 30px;
+  margin-right: 115px;
+}
+
+.item-1,
+.item-2 {
+  margin-top: 100px;
+}
+
+.item-1 p,
+.item-2 p {
+  color: #999999;
+  font-weight: 400;
+}
+
+.banners {
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+section:nth-child(4n + 2) {
+  margin-top: 112px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  padding-top: 77px;
+}
+
+section:nth-child(6n + 5) {
+  background-color: #f5fbff;
+  padding-top: 99px;
+  padding-bottom: 44px;
+}
+
+.section-4 {
+  margin: 112px 0;
+}
+
+.section_6-master h1 {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #0b252e;
+  margin-top: -4px;
+  height: 100vh;
+}
+
+.footer-1,
+.footer-2 {
+  padding-top: 74px;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.footer-1 p {
+  color: white;
+  line-height: 26px;
+  margin: 0 0 20px 0;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  max-width: 200px;
+}
+
+.footer-logo img {
+  filter: brightness(0) invert(1);
+  max-width: 100%;
+}
+
+.footer-2 .lorem {
+  color: white;
+  line-height: 22px;
+  margin: 0 0 50px 0;
+}
+
+.phone,
+.mail {
+  display: flex;
+  margin-top: 25px;
+}
+
+.phone p,
+.mail p {
+  margin: 0 27px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding-top: 0;
+}
+
+.social-media a {
+  font-size: 26px;
+  margin-right: 20px;
+}
+
+.social-media {
+  margin: 45px 0 0;
+}
+
+.header-master a:hover {
+  color: hsl(321, 100%, 78%);
+  border: 1px solid hsl(321, 100%, 78%);
+  transition: all 0.5s;
+}
+
+.get-started:hover {
+  border: 1px solid hsl(321, 100%, 78%);
+  background-color: hsl(321, 100%, 78%);
+  transition: all 0.5s;
+}
+
+.subscribe button:hover {
+  border: 0px solid hsl(321, 100%, 78%);
+  background: hsl(321, 100%, 78%);
+  transition: all 0.5s;
+}
+
+input[type="email"]:invalid {
+  border: 2px solid red;
+}
+
+.social-media span {
+  color: white;
+}
+
+.social-media span:hover {
+  color: #00b8ff;
+  transition: all 0.5s;
+}
+
+.waves {
+  display: block;
+}
+
+.waves-desktop {
+  display: none;
+}
+
+input[type="email"] {
+  padding: 14px;
+  border-radius: 5px;
+  max-width: 328px;
+}
+
+.subscribe button {
+  padding: 12px;
+  max-width: 162px;
+  border-radius: 6px;
+  margin: 15px 0 0 168px;
+  background: hsl(322, 100%, 66%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+}
